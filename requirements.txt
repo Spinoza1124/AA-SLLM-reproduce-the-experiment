@@ -1,0 +1,37 @@
+# AA-SLLM Requirements
+# 核心深度学习框架
+torch==2.3.1
+torchaudio==2.3.1
+torchvision==0.18.1
+
+# 音频处理
+librosa>=0.11.0
+soundfile>=0.12.1
+pysndfx>=0.3.6
+praat-parselmouth>=0.4.3
+
+# 预训练模型和NLP
+transformers>=4.55.4
+huggingface-hub>=0.34.4
+openai-whisper>=20240930
+peft>=0.8.0
+bitsandbytes>=0.41.0
+
+# 数据处理
+numpy>=1.24.0
+pandas>=2.3.2
+scipy>=1.11.0
+
+# 配置和工具
+pyyaml>=6.0.2
+tqdm>=4.67.1
+matplotlib>=3.10.5
+pillow>=8.0.0
+
+# 系统监控
+nvitop>=1.5.3
+
+# 可选依赖（用于扩展功能）
+scikit-learn>=1.3.0
+seaborn>=0.12.0
+tensorboard>=2.14.0
